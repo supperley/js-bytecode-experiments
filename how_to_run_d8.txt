@@ -1,0 +1,3 @@
+C:\Users\User\.jsvu\bin\v8.cmd
+C:\Users\User\.jsvu\bin\v8.cmd --allow-natives-syntax
+C:\Users\User\.jsvu\bin\v8.cmd --allow-natives-syntax ./literal_address.js

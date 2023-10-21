@@ -1,0 +1,15 @@
+d8 --allow-natives-syntax
+
+var theThing = "abc"
+
+%DebugPrint(theThing)
+
+function doBc() {var theThing2 = "abc"; %DebugPrint(theThing2) }
+
+doBc()
+
+%DebugPrintPtr(0x020900199435) // "abc" address
+
+theThing = "abcd"
+
+%DebugPrintPtr(0x020900199435) // "abc" address still exists
